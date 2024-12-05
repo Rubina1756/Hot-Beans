@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+    <title>Contact Us</title>
+</head>
+<style>
+body{
+    background-color:chocolate;
+  font-family: sans-serif;
+}
+.container { 
+  height: 20px;
+  position: relative;
+  border: 3px solid chocolate; 
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+</style>
+<body>
+    <h1 style="text-align: center;"> Contact Us</h1>
+    <p style="text-align: center;">Please enter your name and Email and the message you would like to give us. If you are looking for an application then please enter that information <a href="Apply.html">here </a></p>
+    <form style="text-align: center; font-size:18px;">
+        Name:<br>
+        <input type="text" name="name" size="50"><br><br>
+        Email:<br>
+        <input type="text" name="email" size="50"><br><br>
+        <textarea name="textarea" rows="4" cols="50">Any futher thoughts/messages go here </textarea>
+    </form>
+    <div class="container">
+        <div class="center">
+          <button style="font-size: 18px;">Submit</button>
+        </div>
+      </div>
+</body>
+</html>
